@@ -1,123 +1,197 @@
 {
- "schemaVersion": 1,
- "builtAt": "2026-11-03T01:26:49.325Z",
- "packs": [
-  {
-   "id": "animes.one-piece.grand-line",
-   "categoryId": "animes",
-   "campaignId": "one-piece",
-   "title": "One Piece",
-   "puzzleCount": 100,
-   "byDifficulty": {
-    "1": 25,
-    "2": 25,
-    "3": 25,
-    "4": 25
-   },
-   "contentHash": "233905f98c39120d",
-   "path": "packs/animes.one-piece.grand-line.pack.json"
+  "schemaVersion": 1,
+  "builtAt": "2026-11-09T21:15:43.248Z",
+  "packs": [
+    {
+      "id": "animes.one-piece.grand-line",
+      "categoryId": "animes",
+      "campaignId": "one-piece",
+      "title": "One Piece",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "233905f98c39120d",
+      "path": "packs/animes.one-piece.grand-line.pack.json"
+    },
+    {
+      "id": "animes.one-piece.grand-line.gemeas",
+      "categoryId": "animes",
+      "campaignId": "one-piece",
+      "title": "One Piece",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "0a395f06dee5484e",
+      "path": "packs/animes.one-piece.grand-line.gemeas.pack.json"
+    },
+    {
+      "id": "desafio-diario",
+      "categoryId": "desafio",
+      "campaignId": "desafio-diario",
+      "title": "Desafio diário",
+      "puzzleCount": 63,
+      "byDifficulty": {
+        "1": 18,
+        "2": 18,
+        "3": 18,
+        "4": 9
+      },
+      "contentHash": "a476151fa58c2375",
+      "path": "packs/desafio-diario.pack.json",
+      "startDay": "2026-10-26"
+    },
+    {
+      "id": "filmes.star-wars.saga",
+      "categoryId": "filmes",
+      "campaignId": "star-wars",
+      "title": "Star Wars",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "00ca1f7505effa45",
+      "path": "packs/filmes.star-wars.saga.pack.json"
+    },
+    {
+      "id": "filmes.star-wars.saga.gemeas",
+      "categoryId": "filmes",
+      "campaignId": "star-wars",
+      "title": "Star Wars",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "0c507a6e8ce0dcf4",
+      "path": "packs/filmes.star-wars.saga.gemeas.pack.json"
+    },
+    {
+      "id": "jogos.final-fantasy.saga",
+      "categoryId": "jogos",
+      "campaignId": "final-fantasy",
+      "title": "Final Fantasy",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "38d8cfc10cfc7b6f",
+      "path": "packs/jogos.final-fantasy.saga.pack.json"
+    },
+    {
+      "id": "jogos.final-fantasy.saga.gemeas",
+      "categoryId": "jogos",
+      "campaignId": "final-fantasy",
+      "title": "Final Fantasy",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "43fa4aaa6a416594",
+      "path": "packs/jogos.final-fantasy.saga.gemeas.pack.json"
+    },
+    {
+      "id": "jogos.magic.multiverso",
+      "categoryId": "jogos",
+      "campaignId": "magic",
+      "title": "Magic: The Gathering",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "a84db7bee57a1175",
+      "path": "packs/jogos.magic.multiverso.pack.json"
+    },
+    {
+      "id": "jogos.magic.multiverso.gemeas",
+      "categoryId": "jogos",
+      "campaignId": "magic",
+      "title": "Magic: The Gathering",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "7aa39e89f63c955a",
+      "path": "packs/jogos.magic.multiverso.gemeas.pack.json"
+    },
+    {
+      "id": "jogos.pokemon.pokedex-kanto",
+      "categoryId": "jogos",
+      "campaignId": "pokemon",
+      "title": "Pokémon",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "914eebe813cfc65a",
+      "path": "packs/jogos.pokemon.pokedex-kanto.pack.json"
+    },
+    {
+      "id": "jogos.pokemon.pokedex-kanto.gemeas",
+      "categoryId": "jogos",
+      "campaignId": "pokemon",
+      "title": "Pokémon",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "8cc3e83d39ce86ad",
+      "path": "packs/jogos.pokemon.pokedex-kanto.gemeas.pack.json"
+    }
+  ],
+  "events": [],
+  "poll": {
+    "candidates": [
+      "Dragon Ball",
+      "Cavaleiros do Zodíaco",
+      "Harry Potter",
+      "O Senhor dos Anéis",
+      "Marvel",
+      "DC Comics",
+      "The Legend of Zelda",
+      "Super Mario",
+      "Minecraft",
+      "Attack on Titan",
+      "Demon Slayer",
+      "Game of Thrones",
+      "Street Fighter",
+      "League of Legends",
+      "Yu-Gi-Oh!",
+      "Digimon",
+      "Sonic",
+      "Resident Evil",
+      "The Witcher"
+    ]
   },
-  {
-   "id": "desafio-diario",
-   "categoryId": "desafio",
-   "campaignId": "desafio-diario",
-   "title": "Desafio diário",
-   "puzzleCount": 63,
-   "byDifficulty": {
-    "1": 18,
-    "2": 18,
-    "3": 18,
-    "4": 9
-   },
-   "contentHash": "a476151fa58c2375",
-   "path": "packs/desafio-diario.pack.json",
-   "startDay": "2026-10-26"
-  },
-  {
-   "id": "filmes.star-wars.saga",
-   "categoryId": "filmes",
-   "campaignId": "star-wars",
-   "title": "Star Wars",
-   "puzzleCount": 100,
-   "byDifficulty": {
-    "1": 25,
-    "2": 25,
-    "3": 25,
-    "4": 25
-   },
-   "contentHash": "00ca1f7505effa45",
-   "path": "packs/filmes.star-wars.saga.pack.json"
-  },
-  {
-   "id": "jogos.final-fantasy.saga",
-   "categoryId": "jogos",
-   "campaignId": "final-fantasy",
-   "title": "Final Fantasy",
-   "puzzleCount": 100,
-   "byDifficulty": {
-    "1": 25,
-    "2": 25,
-    "3": 25,
-    "4": 25
-   },
-   "contentHash": "38d8cfc10cfc7b6f",
-   "path": "packs/jogos.final-fantasy.saga.pack.json"
-  },
-  {
-   "id": "jogos.magic.multiverso",
-   "categoryId": "jogos",
-   "campaignId": "magic",
-   "title": "Magic: The Gathering",
-   "puzzleCount": 100,
-   "byDifficulty": {
-    "1": 25,
-    "2": 25,
-    "3": 25,
-    "4": 25
-   },
-   "contentHash": "a84db7bee57a1175",
-   "path": "packs/jogos.magic.multiverso.pack.json"
-  },
-  {
-   "id": "jogos.pokemon.pokedex-kanto",
-   "categoryId": "jogos",
-   "campaignId": "pokemon",
-   "title": "Pokémon",
-   "puzzleCount": 100,
-   "byDifficulty": {
-    "1": 25,
-    "2": 25,
-    "3": 25,
-    "4": 25
-   },
-   "contentHash": "914eebe813cfc65a",
-   "path": "packs/jogos.pokemon.pokedex-kanto.pack.json"
-  }
- ],
- "events": [],
- "poll": {
-  "candidates": [
-   "Naruto",
-   "Dragon Ball",
-   "Cavaleiros do Zodíaco",
-   "Harry Potter",
-   "O Senhor dos Anéis",
-   "Marvel",
-   "DC Comics",
-   "The Legend of Zelda",
-   "Super Mario",
-   "Minecraft",
-   "Attack on Titan",
-   "Demon Slayer",
-   "Game of Thrones",
-   "Street Fighter",
-   "League of Legends",
-   "Yu-Gi-Oh!",
-   "Digimon",
-   "Sonic",
-   "Resident Evil",
-   "The Witcher"
-  ]
- },
- "themes": []
+  "themes": []
 }
