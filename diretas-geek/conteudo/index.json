@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-09T21:15:43.248Z",
+  "builtAt": "2026-11-09T21:54:58.235Z",
   "packs": [
+    {
+      "id": "animes.naruto.konoha",
+      "categoryId": "animes",
+      "campaignId": "naruto",
+      "title": "Naruto",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "1659c00c00e47767",
+      "path": "packs/animes.naruto.konoha.pack.json"
+    },
+    {
+      "id": "animes.naruto.konoha.gemeas",
+      "categoryId": "animes",
+      "campaignId": "naruto",
+      "title": "Naruto",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "09459123ec172411",
+      "path": "packs/animes.naruto.konoha.gemeas.pack.json"
+    },
     {
       "id": "animes.one-piece.grand-line",
       "categoryId": "animes",
@@ -193,5 +223,12 @@
       "The Witcher"
     ]
   },
-  "themes": []
+  "themes": [
+    {
+      "id": "naruto",
+      "label": "Naruto",
+      "short": "NRT",
+      "packId": "animes.naruto.konoha"
+    }
+  ]
 }
