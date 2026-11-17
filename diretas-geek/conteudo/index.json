@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-09T21:54:58.235Z",
+  "builtAt": "2026-11-17T17:48:19.329Z",
   "packs": [
     {
       "id": "animes.naruto.konoha",
@@ -14,7 +14,7 @@
         "3": 25,
         "4": 25
       },
-      "contentHash": "1659c00c00e47767",
+      "contentHash": "12c6c40b9e778c8e",
       "path": "packs/animes.naruto.konoha.pack.json"
     },
     {
@@ -29,7 +29,7 @@
         "3": 25,
         "4": 25
       },
-      "contentHash": "09459123ec172411",
+      "contentHash": "e502349eea6d3bc0",
       "path": "packs/animes.naruto.konoha.gemeas.pack.json"
     },
     {
@@ -77,6 +77,36 @@
       "contentHash": "a476151fa58c2375",
       "path": "packs/desafio-diario.pack.json",
       "startDay": "2026-10-26"
+    },
+    {
+      "id": "filmes.harry-potter.hogwarts",
+      "categoryId": "filmes",
+      "campaignId": "harry-potter",
+      "title": "Harry Potter",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "5cb3be180a53e84f",
+      "path": "packs/filmes.harry-potter.hogwarts.pack.json"
+    },
+    {
+      "id": "filmes.harry-potter.hogwarts.gemeas",
+      "categoryId": "filmes",
+      "campaignId": "harry-potter",
+      "title": "Harry Potter",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "02fb11f3b939d1f3",
+      "path": "packs/filmes.harry-potter.hogwarts.gemeas.pack.json"
     },
     {
       "id": "filmes.star-wars.saga",
@@ -204,7 +234,6 @@
     "candidates": [
       "Dragon Ball",
       "Cavaleiros do Zodíaco",
-      "Harry Potter",
       "O Senhor dos Anéis",
       "Marvel",
       "DC Comics",
@@ -229,6 +258,12 @@
       "label": "Naruto",
       "short": "NRT",
       "packId": "animes.naruto.konoha"
+    },
+    {
+      "id": "harry-potter",
+      "label": "Harry Potter",
+      "short": "HP",
+      "packId": "filmes.harry-potter.hogwarts"
     }
   ]
 }
