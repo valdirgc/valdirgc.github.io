@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-18T00:34:38.103Z",
+  "builtAt": "2026-11-23T03:06:53.386Z",
   "packs": [
     {
       "id": "animes.naruto.konoha",
@@ -232,11 +232,11 @@
   "events": [],
   "poll": {
     "candidates": [
-      "Dragon Ball",
       "Cavaleiros do Zodíaco",
       "O Senhor dos Anéis",
       "Marvel",
       "DC Comics",
+      "The Legend of Zelda",
       "Super Mario",
       "Minecraft",
       "Attack on Titan",
@@ -249,7 +249,17 @@
       "Sonic",
       "Resident Evil",
       "The Witcher"
-    ]
+    ],
+    "fixos": {
+      "semana": "2026-11-23",
+      "temas": [
+        "O Senhor dos Anéis"
+      ]
+    },
+    "vencedor": {
+      "semana": "2026-11-16",
+      "tema": "Dragon Ball"
+    }
   },
   "themes": [
     {
