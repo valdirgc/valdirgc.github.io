@@ -1,7 +1,37 @@
 {
   "schemaVersion": 1,
-  "builtAt": "2026-11-23T03:06:53.386Z",
+  "builtAt": "2026-11-24T03:00:07.368Z",
   "packs": [
+    {
+      "id": "animes.dragon-ball.esferas",
+      "categoryId": "animes",
+      "campaignId": "dragon-ball",
+      "title": "Dragon Ball",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "2c00534fca1b82e2",
+      "path": "packs/animes.dragon-ball.esferas.pack.json"
+    },
+    {
+      "id": "animes.dragon-ball.esferas.gemeas",
+      "categoryId": "animes",
+      "campaignId": "dragon-ball",
+      "title": "Dragon Ball",
+      "puzzleCount": 100,
+      "byDifficulty": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      },
+      "contentHash": "cde4b1082bf6ecaf",
+      "path": "packs/animes.dragon-ball.esferas.gemeas.pack.json"
+    },
     {
       "id": "animes.naruto.konoha",
       "categoryId": "animes",
@@ -273,6 +303,12 @@
       "label": "Harry Potter",
       "short": "HP",
       "packId": "filmes.harry-potter.hogwarts"
+    },
+    {
+      "id": "dragon-ball",
+      "label": "Dragon Ball",
+      "short": "DB",
+      "packId": "animes.dragon-ball.esferas"
     }
   ]
 }
